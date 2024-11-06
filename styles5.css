@@ -1,0 +1,265 @@
+
+.header-top
+{
+    background-color: #f04e23;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    padding: 15px;
+
+
+}
+
+.header-main
+{
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    line-height: 1;
+}
+
+h1
+{
+    text-align: center;
+
+}
+
+h1 span {
+    display: block;
+    line-height: 1;
+}
+
+h1 span {
+    display: block;
+}
+
+.header-main nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.header-main nav li {
+    flex: 1 1 100px;
+    text-align: center;
+}
+
+.header-main nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 5%;
+    background-color: white;
+    justify-content: space-between;
+    color: #333;
+    align-items: flex-start;
+}
+
+.contact-info, .contact-form {
+    flex: 1 1 300px;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.availability {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.phone-number {
+    font-size: 2em;
+    font-weight: bold;
+    color: #f56342;
+}
+
+.contact-info h2 {
+    padding-bottom: 20px;
+}
+
+.contact-details h3, .contact-form h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-details p {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #555;
+}
+
+.icon {
+    margin-right: 8px;
+    color: #f56342;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.name-fields {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f56342;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+button:hover {
+    background-color: #e05236;
+}
+
+
+/* Map Section */
+.map-section iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+/* Banner Section */
+.banner-section {
+    background-color: #f56342;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.banner-section p {
+    margin: 0;
+}
+
+.call-button {
+    background-color: #ffffff;
+    color: #f56342;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.call-button:hover {
+    background-color: #f7a58f;
+}
+
+/* Contact & About Section */
+.contact-about {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.contact-info, .about-info {
+    flex: 1;
+    max-width: 400px;
+}
+
+.contact-info h3, .about-info h3 {
+    color: #f56342;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.phone {
+    font-size: 1.8em;
+    color: #f56342;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .contact-about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-info, .about-info {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 20px 5%;
+    color: #555;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #555;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.social-icons a:hover {
+    color: #f56342;
+}
